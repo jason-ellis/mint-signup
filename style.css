@@ -1,0 +1,36 @@
+body {
+    background-color: #f2f9f6;
+    min-width: 950px;
+}
+#content {
+
+}
+#outside-head, #form-div {
+    margin-left: auto;
+    margin-right: auto;
+}
+#outside-head {
+    width: 690px;
+    padding-top: 35px;
+}
+#form-div {
+    background-color: white;
+    width: 590px;
+    height: 648px;
+    padding: 43px 50px 50px 50px;
+    clear: both;
+}
+#main-logo {
+    display: inline;
+    float:left;
+}
+#options {
+    display: inline;
+    float: right;
+}
+ul {
+    list-style: none;
+}
+#right-space ul {
+    list-style: disc;
+}
