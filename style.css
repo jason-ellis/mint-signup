@@ -1,6 +1,10 @@
 body {
-    background-color: #f2f9f6;
     min-width: 950px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-image:   -webkit-linear-gradient(top, rgb(222, 239, 233), rgb(242, 249, 246));
+                        -moz-linear-gradient(top, #deefe9, #f2f9f6);
+                        -ms-linear-gradient(top, #deefe9, #f2f9f6);
+                        linear-gradient(top, #deefe9, #f2f9f6);
 }
 #content {
 
@@ -20,6 +24,10 @@ body {
     padding: 43px 50px 50px 50px;
     clear: both;
 }
+#form-header h1 {
+    margin-top: 0;
+    margin-bottom: 34px;
+}
 #main-logo {
     display: inline;
     float:left;
@@ -31,6 +39,58 @@ body {
 ul {
     list-style: none;
 }
+form {
+    float: left;
+}
+#right-space {
+    background-color: #f5f5f5;
+    margin-left: 25px;
+    padding: 21px 17px 19px 40px;
+    height: 140px;
+    width: 140px;
+    float: right;
+    color: rgb(102, 102, 102);
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#right-space h2 {
+    font-size: 20px;
+    font-weight: 500;
+    height: 30px;
+    width: 155px;
+    margin: 0 0 0 -15px;
+}
 #right-space ul {
     list-style: disc;
+    font-size: 11px;
+    height: 28px;
+    padding: 0;
+}
+footer {
+    width: 690px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#footer-links {
+
+}
+#footer-links li {
+    float: left;
+
+}
+#footer-logos {
+    clear: both;
+}
+#norton-logo {
+    background-image: url("https://images.mint.com/web-client/images/security-sd9c123b13c.png");
+    background-position: 0 -68px;
+    height: 58px;
+    width: 124px;
+    display: inline-block;
+}
+#truste-logo {
+    background-image: url("https://images.mint.com/web-client/images/security-sd9c123b13c.png");
+    background-position: 0 0;
+    height: 68px;
+    width: 160px;
+    display: inline-block;
 }
