@@ -138,18 +138,28 @@ form select {
 }
 footer {
     width: 690px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto 25px auto;
+    display: block;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 11px;
 }
 #footer-links {
-
+    color: rgb(102, 102, 102);
+    padding: 20px 0 25px 0;
+}
+#footer-links ul {
+    margin: 0 auto;
+    display: inline;
 }
 #footer-links li {
-    float: left;
+    display: inline;
+    padding: 0 12px 0 12px;
 
 }
 #footer-logos {
     clear: both;
+    padding-bottom: 20px;
 }
 #norton-logo {
     background-image: url("https://images.mint.com/web-client/images/security-sd9c123b13c.png");
@@ -157,6 +167,7 @@ footer {
     height: 58px;
     width: 124px;
     display: inline-block;
+    margin: 0 25px;
 }
 #truste-logo {
     background-image: url("https://images.mint.com/web-client/images/security-sd9c123b13c.png");
@@ -164,4 +175,12 @@ footer {
     height: 68px;
     width: 160px;
     display: inline-block;
+    margin: 0 25px;
+}
+#finalfooter span {
+    color: rgb(153, 153, 153);
+    padding: 0 5px;
+}
+#copyright {
+    border-right: 1px solid rgb(153, 153, 153);
 }
