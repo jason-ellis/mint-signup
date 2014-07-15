@@ -1,5 +1,6 @@
 body {
     min-width: 950px;
+    margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: rgb(51, 51, 51);
     background-image:   -webkit-linear-gradient(top, rgb(222, 239, 233), rgb(242, 249, 246));
@@ -17,6 +18,8 @@ body {
 #outside-head {
     width: 690px;
     padding-top: 35px;
+    height: 74px;
+    position: relative;
 }
 #form-div {
     background-color: white;
@@ -36,10 +39,27 @@ body {
 #main-logo {
     display: inline;
     float:left;
+    margin-bottom: 15px;
 }
 #options {
-    display: inline;
-    float: right;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 5px;
+}
+#options li {
+    float:left;
+    width: auto;
+    height: auto;
+    padding: 0 14px;
+    font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(38, 44, 38);
+}
+#signup {
+    font-weight: bold;
+    border-right: 1px solid rgb(211, 211, 211);
 }
 ul {
     list-style: none;
@@ -76,6 +96,12 @@ form select {
     height: 30px;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.098) 0 1px 1px 0 inset;
+    font-family: 'Helvetica Neue', HelveticaNeue-Light, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+#form-zip {
+    width: 80px;
 }
 #right-column {
     border-left: 1px solid rgb(211, 211, 211);
