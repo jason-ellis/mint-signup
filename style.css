@@ -115,6 +115,24 @@ form select {
     font-weight: normal;
     display: inline;
 }
+input[type=submit] {
+    background-color: rgb(248, 148, 6);
+    border-color: rgb(248, 148, 6);
+    border-bottom-color: rgb(173, 103, 4);
+    border-radius: 4px;
+    box-shadow:         rgba(255, 255, 255, 0.2) 0 1px 0 0 inset,
+                        rgba(0, 0, 0, 0.05) 0 1px 2px 0;
+    -webkit-box-shadow: rgba(255, 255, 255, 0.2) 0 1px 0 0 inset,
+                        rgba(0, 0, 0, 0.05) 0 1px 2px 0;
+    color: white;
+    height: 30px;
+    width: 74px;
+    padding: 0;
+    text-shadow: rgba(0, 0, 0, 0.247059) 0 -1px 0;
+    font-family: 'Lucida Grande', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
 #right-column {
     border-left: 1px solid rgb(211, 211, 211);
     width: auto;
