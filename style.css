@@ -103,6 +103,18 @@ form select {
 #form-zip {
     width: 80px;
 }
+#form-agree {
+    display: inline;
+    width: auto;
+    height: auto;
+    border: 0;
+}
+#form-agree-label {
+    color: rgb(102, 102, 102);
+    font-size: 13px;
+    font-weight: normal;
+    display: inline;
+}
 #right-column {
     border-left: 1px solid rgb(211, 211, 211);
     width: auto;
